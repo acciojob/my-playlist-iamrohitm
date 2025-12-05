@@ -1,10 +1,11 @@
+/* BODY */
 body {
     background-color: rgb(204, 204, 204);
-    font-family: Arial, Helvetica, sans-serif;
     margin: 20px;
+    font-family: Arial, sans-serif;
 }
 
-/* Headings */
+/* HEADINGS */
 h1 {
     text-align: center;
 }
@@ -13,46 +14,40 @@ h2 {
     text-align: center;
 }
 
-/* Playlist Container */
-.playlist {
-    width: 80%;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #ffffff;
-    border: 2px solid #000000;
-    border-radius: 8px;
-    list-style: none;
-}
-
-/* Playlist Items */
-.playlist li {
+/* LIST ITEMS */
+li {
     list-style-type: none;
-    margin: 6px 0;
 }
 
-.playlist a {
-    text-decoration: none;
+/* REMOVE UNDERLINE FROM LINKS */
+a {
+    text-decoration-line: none;
     color: black;
 }
 
-/* Player Containers */
-.player_one,
-.player_two {
-    background-color: rgb(255, 255, 255);
+/* UL CONTAINER STYLE */
+ul {
     width: 80%;
     margin: 20px auto;
     padding: 20px;
-    border-radius: 10px;
-    border: 2px solid #000000;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 8px;
 }
 
-/* Media Width */
+/* MEDIA PLAYER CONTAINERS */
+.player_one,
+.player_two {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 20px auto;
+    border: 2px solid black;
+}
+
+/* VIDEO & AUDIO WIDTH */
 .player_one video,
 .player_two audio {
     width: 100%;
-    height: auto;
-}
-
-.song-title {
-    margin-bottom: 10px;
 }
